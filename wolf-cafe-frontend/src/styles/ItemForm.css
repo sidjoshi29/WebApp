@@ -1,0 +1,70 @@
+.item-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem; /* Consistent padding like in RegisterComponent */
+    background-color: var(--bg-color); /* Ensure same background color */
+}
+
+
+.form-card {
+    background-color: #333; /* Gray background for the card */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3); /* Optional shadow effect */
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Limit max width for the card */
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff0000; /* Red text for the title */
+}
+
+.form-body {
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #ffffff; /* White text for labels */
+}
+
+.form-input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 4px; /* Rounded corners */
+    transition: border-color 0.2s ease;
+}
+
+.form-input:focus {
+    border-color: #ff0000; /* Red border on focus */
+    outline: none; /* Remove outline */
+}
+
+.error-message {
+    color: #dc3545; /* Red for error messages */
+}
+
+.form-button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #ff0000; /* Red background for the button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.2s ease;
+}
+
+.form-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}

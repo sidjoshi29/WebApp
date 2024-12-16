@@ -1,0 +1,80 @@
+/* Some of this file was assisted with ChatGPT */
+/* Container styling */
+.add-staff-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+/* Card for adding staff */
+.add-staff-card {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Heading styling */
+.add-staff-heading {
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Form group */
+.add-staff-form-group {
+  margin-bottom: 1rem;
+}
+
+.add-staff-form-label {
+  color: #e0e0e0;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.add-staff-form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: #fff;
+  color: #666;
+}
+
+.add-staff-form-control::placeholder {
+  color: #aaa;
+}
+
+/* Submit button */
+.add-staff-submit-btn {
+  background-color: #e63946;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.add-staff-submit-btn:hover {
+  background-color: #ff4b5c;
+}
+
+/* Error message styling */
+.add-staff-error-message {
+  color: #e63946; /* Red color for error */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}

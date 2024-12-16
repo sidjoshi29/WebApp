@@ -1,0 +1,89 @@
+/* Base styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.inventory-container {
+    padding: 20px;
+    background-color: #333333; /* Slightly lighter background */
+    border-radius: 8px;
+    max-width: 900px; /* Increased width for a larger box */
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Title styling */
+.inventory-title {
+    color: #dc3545; /* Red title */
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* Button alignment */
+.inventory-button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/* Button styling */
+.inventory-button {
+    padding: 8px 15px;
+    background-color: #dc3545; /* Red background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.inventory-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+
+/* Table styling */
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fixes width for alignment */
+}
+
+.inventory-header {
+    background-color: #dc3545; /* Red background for headers */
+    color: #ffffff; /* White text for headers */
+    padding: 10px;
+    font-weight: bold;
+}
+
+.inventory-header th {
+    text-align: left;
+}
+
+.inventory-row {
+    border-bottom: 1px solid #555555; /* Subtle border for row separation */
+}
+
+.inventory-item-cell, .inventory-amount-cell {
+    padding: 10px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Column widths */
+.inventory-item-cell {
+    width: 25%; /* Adjust as needed */
+}
+
+.inventory-amount-cell {
+    width: 10%; /* Adjust as needed */
+}
+
+.inventory-action-cell {
+    width: 25%; /* Width to align the action buttons */
+}

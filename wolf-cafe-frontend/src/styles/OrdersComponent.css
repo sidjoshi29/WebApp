@@ -1,0 +1,175 @@
+.orders-list {
+    width: 80%;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+    color: var(--text-color); /* Use text color from :root */
+    background-color: var(--bg-color); /* Use app background */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.orders-list h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: var(--accent-color); /* Use accent color for the heading */
+}
+
+.orders-list table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--card-bg-color); /* Card background color */
+    border: 1px solid var(--border-color); /* Border color */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.orders-list th, .orders-list td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.orders-list th {
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.orders-list td {
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.orders-list tr:hover {
+    background-color: var(--border-color); /* Subtle hover effect */
+}
+
+.orders-list .status {
+    font-weight: bold;
+    color: var(--text-color); /* Keep text readable */
+}
+
+.orders-list button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.orders-list button.fulfill {
+    background-color: var(--accent-color); /* Use accent color */
+    color: var(--text-color); /* Text color from root */
+}
+
+.orders-list button.fulfill:hover {
+    background-color: #c5303a; /* Slightly darker accent color for hover */
+}
+
+.orders-list button.pickup {
+    background-color: #2196f3;
+    color: var(--text-color);
+}
+
+.orders-list button.pickup:hover {
+    background-color: #1e87d4;
+}
+
+.orders-list button.cancel {
+    background-color: #f44336;
+    color: var(--text-color);
+}
+
+.orders-list button.cancel:hover {
+    background-color: #e53935;
+}
+
+.orders-list .cancel {
+    background-color: #ffc107; /* Yellow for Undo */
+    color: #1c1c1c; /* Dark text */
+}
+
+.orders-list .cancel:hover {
+    background-color: #e0a800;
+}
+
+.save-actions {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.save-actions .save {
+    background-color: #309339; 
+    color: var(--text-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.save-actions .save:hover {
+    background-color: #18491c; 
+}
+
+.filter-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-section label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--text-color);
+}
+
+.filter-section input {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 300px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filter-section input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px rgba(255, 69, 0, 0.5);
+}
+
+.total-section {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.orders-list button.cancel-order {
+	background-color: var(--accent-color);
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+.orders-list button.cancel-order:hover {
+	background-color: #c5303a;
+}
+
+.orders-list button.undo {
+	background-color: #4e6cff;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+.orders-list button.undo:hover {
+	background-color: #3145ab;
+}
+
+

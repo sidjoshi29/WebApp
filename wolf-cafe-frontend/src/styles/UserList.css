@@ -1,0 +1,136 @@
+/* Container styling */
+.user-list-container {
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Individual Table Wrapper */
+.user-list-table-wrapper {
+    flex: 1;
+}
+
+/* Heading styling */
+.user-list-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 20px;
+}
+
+/* Add Item button */
+.user-list-add-button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #e63946;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-list-add-button:hover {
+    background-color: #c5303c;
+}
+
+/* Table styling */
+.user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #444;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.user-list-table th,
+.user-list-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #555;
+}
+
+.user-list-table thead th {
+    background-color: #e63946;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-list-table tbody tr:nth-child(even) {
+    background-color: #555;
+}
+
+.user-list-table tbody tr:nth-child(odd) {
+    background-color: #444;
+}
+
+/* Input and Action buttons */
+.user-list-input {
+    width: 60px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.user-list-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.user-list-button-update {
+    background-color: #e63946;
+    margin-right: 10px;
+}
+
+.user-list-button-update:hover {
+    background-color: #c5303c;
+}
+
+.user-list-button-delete {
+    background-color: #e63946;
+}
+
+.user-list-button-delete:hover {
+    background-color: #b52a36;
+}
+
+/* Update Inventory button */
+.user-list-update-inventory-button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding to make the button visually proportional */
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: auto; /* Prevent the button from stretching */
+    max-width: 200px; /* Optional: Set a maximum width for consistency */
+    align-self: flex-start; /* Ensure the button aligns to its content */
+    margin: 0; /* Remove any unwanted margins */
+}
+
+.user-list-update-inventory-button:hover {
+    background-color: #c5303c;
+}

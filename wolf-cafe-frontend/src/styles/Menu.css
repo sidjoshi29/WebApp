@@ -1,0 +1,333 @@
+.menu-list {
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu-list h2 {
+  color: var(--accent-color);
+  font-family: 'Arial Black', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px rgba(230, 57, 70, 0.6);
+}
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 100%;
+}
+.item-description {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  margin: 5px 0;
+  line-height: 1.2;
+}
+
+.item-card {
+  flex: 1 1 200px;
+  max-width: 250px;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background: var(--card-bg-color);
+}
+
+.item-card:hover {
+  box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+}
+
+.item-card h3 {
+  color: var(--accent-color);
+  margin: 0.5em 0;
+}
+
+.item-card p {
+  color: var(--text-color);
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 2rem auto;
+  color: #ffffff;
+}
+
+.item-image-wrapper {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 2rem;
+}
+
+.item-image-wrapper .item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.item-info {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item-info h2 {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.item-info p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.item-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.add-to-order-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-order-button:hover {
+  background-color: #ff4b5c;
+}
+
+.menu-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--bg-color);
+  color: #ffffff;
+  
+}
+
+.menu-list {
+  flex: 3;
+  padding-right: 2rem;
+}
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.cart {
+  flex: 1;
+  max-width: 300px;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--card-bg-color);
+  color: #ffffff;
+}
+
+.cart h3 {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.cart-items {
+  margin-bottom: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.cart-item-name {
+  flex: 2;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+}
+
+.quantity-controls button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: none;
+  padding: 3px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 3px;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-controls button:hover {
+  background-color: #ff4b5c;
+}
+
+.cart-item-price {
+  flex: 1;
+  text-align: right;
+  min-width: 50px;
+}
+
+.cart-total {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: var(--text-color);
+}
+
+.cart-total p {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color); /* Line between totals */
+}
+
+.cart-total p:last-of-type {
+  border-bottom: none; /* Remove border from last item (Total) */
+  font-size: 1.1rem; /* Slightly larger font for emphasis on Total */
+  font-weight: bold;
+}
+
+
+.place-order-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.place-order-button:hover {
+  background-color: #ff4b5c;
+}
+
+.tip-selection {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.tip-selection label {
+  font-size: 1rem;
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.tip-options {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tip-options button {
+  background-color: var(--card-bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-width: 50px;
+}
+
+.tip-options button:hover {
+  background-color: #444;
+  color: var(--accent-color);
+}
+
+.tip-options button.active,
+.tip-options button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border-color: var(--accent-color);
+}
+
+/* Custom Tip Input Container */
+.custom-tip-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 0.5rem;
+}
+
+.custom-tip-container input {
+  background-color: var(--card-bg-color);
+  color: #ffffff;
+  border: 1px solid var(--border-color);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  text-align: right;
+  width: 80px;
+  transition: border-color 0.3s ease;
+}
+
+.custom-tip-container input:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.custom-tip-container span {
+  color: #ffffff;
+  font-size: 0.85rem;
+  transform: translateY(1px); /* Adjust to align with input field */
+}
+
+

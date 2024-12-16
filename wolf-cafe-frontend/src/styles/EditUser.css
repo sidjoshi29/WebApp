@@ -1,0 +1,92 @@
+/* Some of this file was assisted with ChatGPT */
+.edit-user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.edit-user-card {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.edit-user-heading {
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.edit-user-form-group {
+  margin-bottom: 1rem;
+}
+
+.edit-user-form-label {
+  color: #e0e0e0;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.edit-user-form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: #fff;
+  color: #666;
+}
+
+.edit-user-form-control::placeholder {
+  color: #aaa;
+}
+
+
+.edit-user-submit-btn {
+  background-color: #e63946;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.edit-user-submit-btn:hover {
+  background-color: #ff4b5c;
+}
+
+/* Error message styling */
+.edit-user-error-message {
+  color: #e63946; 
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Success alert */
+.edit-user-alert-success {
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Error alert */
+.edit-user-alert-danger {
+  color: #e63946;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
